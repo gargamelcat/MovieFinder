@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AboutViewController.swift
 //  MovieFinder
 //
 //  Created by Albert Avepa on 19/08/15.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AboutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +19,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
