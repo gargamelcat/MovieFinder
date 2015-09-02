@@ -1,5 +1,5 @@
 # MovieFinder
-iOS project developed with Swift
+iOS project developed with Swift 2.0 and xcode7 Beta
 
 Using cocoapods for libraries management.
 
