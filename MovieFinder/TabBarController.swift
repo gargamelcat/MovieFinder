@@ -19,6 +19,8 @@ class TabBarController: UITabBarController {
         
         tabItem0.title = "Search"
         tabItem1.title = "About"
+        
+        self.tabBar.tintColor = UIColor.whiteColor()
     }
     
     override func didReceiveMemoryWarning() {

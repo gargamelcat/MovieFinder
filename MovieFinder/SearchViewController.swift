@@ -72,6 +72,8 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
             if let checkedUrl = NSURL(string: self.movieMatch.Poster!) {
                 self.downloadImage(checkedUrl)
             }
+            
+            self.searchBar.resignFirstResponder()
         }
     }
     
@@ -117,7 +119,6 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
             self.movieMatch = movie as Movie
             
             self.updateViews()
-            
         })
     }
     

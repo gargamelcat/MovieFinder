@@ -54,7 +54,7 @@ class DataManager {
     }
     
     class func goToimdb(imdbId: String) {
-        var url = imdbTitleBaseUrl + imdbId
+        let url = imdbTitleBaseUrl + imdbId
         
         self.openWebView(url)
     }

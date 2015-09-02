@@ -16,9 +16,130 @@
                     <view key="view" contentMode="scaleToFill" id="djP-xz-Vwe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7o-H8-MQW">
+                                <rect key="frame" x="20" y="64" width="131" height="20.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Swift version: ">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="2.0">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCM-3l-72e">
+                                <rect key="frame" x="20" y="97" width="234" height="20.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Libraries:">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" Alamofire, SwiftyJSON">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0S-7M-fpX">
+                                <rect key="frame" x="20" y="32" width="222.5" height="20.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Developed by: ">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Albert Avellana">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWX-R8-SDV">
+                                <rect key="frame" x="20" y="129" width="284" height="20.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Movies API:">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="http://www.omdbapi.com">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Light"/>
+                                            <string key="NSLink">http://www.omdbapi.com/</string>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6KA-bj-QmI">
+                                <rect key="frame" x="20" y="162" width="273" height="17"/>
+                                <attributedString key="attributedText">
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="https://github.com/gargamelcat/MovieFinder">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Light"/>
+                                            <string key="NSLink">http://www.omdbapi.com/</string>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CWX-R8-SDV" firstAttribute="leading" secondItem="TCM-3l-72e" secondAttribute="leading" id="Cwe-xq-AUr"/>
+                            <constraint firstItem="6KA-bj-QmI" firstAttribute="top" secondItem="CWX-R8-SDV" secondAttribute="bottom" constant="12" id="E8J-MS-40X"/>
+                            <constraint firstItem="U0S-7M-fpX" firstAttribute="top" secondItem="eU4-Ru-nmn" secondAttribute="bottom" constant="12" id="IXD-f2-ZhZ"/>
+                            <constraint firstItem="CWX-R8-SDV" firstAttribute="top" secondItem="TCM-3l-72e" secondAttribute="bottom" constant="12" id="QtV-Id-P0F"/>
+                            <constraint firstItem="6KA-bj-QmI" firstAttribute="leading" secondItem="CWX-R8-SDV" secondAttribute="leading" id="ay9-8M-zzt"/>
+                            <constraint firstItem="U0S-7M-fpX" firstAttribute="leading" secondItem="djP-xz-Vwe" secondAttribute="leading" constant="20" id="azI-Ng-lBW"/>
+                            <constraint firstItem="TCM-3l-72e" firstAttribute="leading" secondItem="o7o-H8-MQW" secondAttribute="leading" id="fOM-Dg-ulg"/>
+                            <constraint firstItem="o7o-H8-MQW" firstAttribute="leading" secondItem="U0S-7M-fpX" secondAttribute="leading" id="ljX-ay-k9G"/>
+                            <constraint firstItem="o7o-H8-MQW" firstAttribute="top" secondItem="U0S-7M-fpX" secondAttribute="bottom" constant="12" id="vAp-Js-j1c"/>
+                            <constraint firstItem="TCM-3l-72e" firstAttribute="top" secondItem="o7o-H8-MQW" secondAttribute="bottom" constant="12" id="vDO-1c-p5n"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="a5Y-bw-E1q"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="more" id="a5Y-bw-E1q"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXN-Xm-Bea" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -145,7 +266,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="KkL-lh-b4u" firstAttribute="centerY" secondItem="Psc-dc-aDb" secondAttribute="centerY" id="4qX-cW-miT"/>
                                     <constraint firstItem="Psc-dc-aDb" firstAttribute="leading" secondItem="kjl-Bs-Ybl" secondAttribute="leading" constant="6" id="5YS-8B-sgQ"/>
@@ -235,7 +356,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="HYH-eB-Pzb"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="HYH-eB-Pzb"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="actorsLabel" destination="oz3-KJ-E1l" id="g6V-x7-LOX"/>
@@ -264,9 +385,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" red="0.050980396570000003" green="0.13333334029999999" blue="0.13333334029999999" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="tintColor" red="0.010747611583897599" green="0.022591145833333326" blue="0.022417163526314829" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="selectedImageTintColor" red="0.050980396568775177" green="0.13333334028720856" blue="0.13333334028720856" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="selectedImageTintColor" red="0.6045527458190918" green="0.11581444834010314" blue="0.1041195014497267" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9FA-R7-rcx" kind="relationship" relationship="viewControllers" id="jhQ-8g-Bef"/>
