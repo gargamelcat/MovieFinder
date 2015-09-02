@@ -16,7 +16,6 @@
 		4186C39D1B849DA400CD4E55 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186C39C1B849DA400CD4E55 /* AboutViewController.swift */; };
 		4186C3A11B849F3B00CD4E55 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186C3A01B849F3B00CD4E55 /* Movie.swift */; };
 		4186C3A31B84A6A400CD4E55 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186C3A21B84A6A400CD4E55 /* TabBarController.swift */; };
-		4186C3A51B84A7D700CD4E55 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186C3A41B84A7D700CD4E55 /* MovieTableViewCell.swift */; };
 		41FA63C21B84BA7100EF8A1B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FA63C11B84BA7100EF8A1B /* DataManager.swift */; };
 		AE456A2C263BDBF468726F98 /* Pods_MovieFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D6E380DAD030A93FB96167 /* Pods_MovieFinder.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		4186C39C1B849DA400CD4E55 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		4186C3A01B849F3B00CD4E55 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		4186C3A21B84A6A400CD4E55 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		4186C3A41B84A7D700CD4E55 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		41FA63C11B84BA7100EF8A1B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		62D6E380DAD030A93FB96167 /* Pods_MovieFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD898312920ED7B7E3A06D6 /* Pods-MovieFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 		4186C39E1B849DB000CD4E55 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4186C3A61B84A7E000CD4E55 /* Cells */,
 				4186C37E1B849BE300CD4E55 /* SearchViewController.swift */,
 				4186C39C1B849DA400CD4E55 /* AboutViewController.swift */,
 				4186C3A21B84A6A400CD4E55 /* TabBarController.swift */,
@@ -156,14 +153,6 @@
 				4186C3A01B849F3B00CD4E55 /* Movie.swift */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		4186C3A61B84A7E000CD4E55 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				4186C3A41B84A7D700CD4E55 /* MovieTableViewCell.swift */,
-			);
-			name = Cells;
 			sourceTree = "<group>";
 		};
 		CAD07F82CB0E37747056B5B8 /* Pods */ = {
@@ -330,7 +319,6 @@
 			files = (
 				4186C39D1B849DA400CD4E55 /* AboutViewController.swift in Sources */,
 				4186C37F1B849BE300CD4E55 /* SearchViewController.swift in Sources */,
-				4186C3A51B84A7D700CD4E55 /* MovieTableViewCell.swift in Sources */,
 				41FA63C21B84BA7100EF8A1B /* DataManager.swift in Sources */,
 				4186C3A11B849F3B00CD4E55 /* Movie.swift in Sources */,
 				4186C3A31B84A6A400CD4E55 /* TabBarController.swift in Sources */,

@@ -97,7 +97,9 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
     func downloadImage(url:NSURL){
         getDataFromUrl(url) { data in
             dispatch_async(dispatch_get_main_queue()) {
-                self.posterImageView.image = UIImage(data: data!)
+                if data != nil {
+                    self.posterImageView.image = UIImage(data: data!)
+                }
             }
         }
     }

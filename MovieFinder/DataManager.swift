@@ -11,42 +11,41 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-let omdbBaseUrl = "http://www.omdbapi.com/?plot=short&r=json"
+let omdbBaseUrl = "https://www.omdbapi.com/?plot=short&r=json"
 let imdbTitleBaseUrl = "http://www.imdb.com/title/"
 
 class DataManager {
     
     class func getMoviesWithSuccess(query: String, success: (movie: Movie!) -> Void) {
         
-        var url = omdbBaseUrl
+        let url = omdbBaseUrl
         
-        var parameters = ["plot":"short",
+        let parameters = ["plot":"short",
                           "r": "json",
                           "tomatoes": "true",
                           "t": query]
         
         Alamofire.request(.GET, url, parameters: parameters)
-            .responseJSON {(request, response, json, error) in
-                if(error != nil) {
-                    NSLog("Error: \(error)")
-                    println(request)
-                    println(response)
+            .responseJSON {_,_, result in
+                print(result)
+                if(result.isFailure) {
+                    NSLog("Error: \(result.error)")
                 }
                 else {
                     NSLog("Success: \(url)")
-                    var json = JSON(json!)
+                    var json = JSON(result.value!)
                     
-                    println(json)
+                    print(json)
                     
                     if json["Response"] == "False" {
                         success(movie: Movie())
                     }
                     else {
-                        var movie = Movie(json: json)
+                        let movie = Movie(json: json)
                         
                         success(movie: movie)
-                    }
-                }
+                   }
+               }
         }
     }
     
